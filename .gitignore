@@ -1,3 +1,11 @@
+node_modules/
+target/
+data/*.sqlite
+data/*.sqlite-shm
+data/*.sqlite-wal
+data/*.mv.db
+data/*.trace.db
+npm-debug.log*
 # Compiled class file
 *.class
 
