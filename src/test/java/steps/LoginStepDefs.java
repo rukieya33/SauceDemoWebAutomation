@@ -12,7 +12,7 @@ import pages.LoginPage;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 
-
+@ExtendWith(SerenityJUnit5Extension.class)
 public class LoginStepDefs {
 
     @Managed
