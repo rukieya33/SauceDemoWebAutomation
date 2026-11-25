@@ -15,7 +15,7 @@ public class ProductDetialsPage extends PageObject {
     @FindBy(id =  "inventory_container")
     private WebElement inventoryList;
 
-    public void getSpecificInventory(String id){
+    public void getSpecificInventory(){
        inventoryList.findElement(By.tagName("a")).click();
     }
 
